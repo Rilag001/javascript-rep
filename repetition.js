@@ -10,7 +10,7 @@ console.log("Första veckodagen " + weekdays[0]);
 var favoritDay = weekdays[4];
 
 // Medtod 2
-var months[];
+var months = [];
 months[0] = "Januari";
 months[1] = "Februari";
 months[2] = "Mars";
