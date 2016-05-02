@@ -4,8 +4,8 @@
 var weekdays = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"];
 
 //Hämta ut array
-console.log("Första veckodagen " + weekday[0]);
+console.log("Första veckodagen " + weekdays[0]);
 
-var favoritday = weekday[4];
+var favoritDay = weekdays[4];
 
 // Medtod 2
