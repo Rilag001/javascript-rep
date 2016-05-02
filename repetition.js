@@ -27,3 +27,49 @@ months[11] = "December";
 console.log("Året har " + month.length + " månader.");
 
 months.push("Narniaari");
+
+
+
+// Objekt, en sak med egenskaper
+
+// Exempel 1
+var car = {color: "ful", hasAWheel: true, numberOfSeats: 4};
+// Ett object består av egenskaper, varje egenskap består av attribut (key) och ett värde (value)
+
+// Exempel 2
+var student = {};
+student.name = "Anton";
+student.favoriteTeam = "AIK";
+
+// Exempel 3
+var annotherStudent = new Object();
+annotherStudent["name"] = "Oskar";
+
+// Hur hämtar vi något från ett objekt?
+console.log("Den första studenten heter " + student.name); // Punktnotation (dot syntax)
+console.log("Den andra studenten heter " + annotherStudent["name"];
+            
+       
+// Objekt i Arrayer
+var students = [student, anotherStudent];
+console.log("Första studenten i array är " + students[0].name);
+console.log("Den andra studenten i array är " + students[1]["name"]);
+
+// array i array
+var favoriteGames[["Super Mario Bros 1", "Duck Hunt"], ["Wii Sports", "Zelda"]];
+console.log("Andra spelet i andra listan " + favoriteGames[0][1]);
+
+// array i objekt
+var superMario64 = {title: Super Mario, countries: ["Sweden", "USA"], characters ["Mario", "Toad"]};
+consolelog("Första karaktären är " + superMario64.characters[0];)
+consolelog("Andra landet är " + superMario64.["countries"][1];)
+
+var soccerPlayer = {name: "Zlatan", originalClub: {name: "Malmö FF", playedInChampionsLeague: true, founded: 1901}};
+console.log("Zlatans orginalklubb startades " + soccerPlayer.originalClub.founded);
+console.log("Zlatans orginalklubb heter " + soccerPlayer["originalClub"]["name"]);
+
+
+
+
+
+
