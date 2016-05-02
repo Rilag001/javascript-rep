@@ -47,7 +47,7 @@ annotherStudent["name"] = "Oskar";
 
 // Hur hämtar vi något från ett objekt?
 console.log("Den första studenten heter " + student.name); // Punktnotation (dot syntax)
-console.log("Den andra studenten heter " + annotherStudent["name"];
+console.log("Den andra studenten heter " + annotherStudent["name"]);
             
        
 // Objekt i Arrayer
